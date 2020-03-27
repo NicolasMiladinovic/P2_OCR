@@ -1,8 +1,7 @@
 @font-face {
-	font-family: "Playfair Display";
-	src: url("fonts/PlayfairDisplay-Bold.otf") format("otf");
+	font-family: "Roboto Medium";
+	src: url("fonts/Roboto-Medium.ttf");
 }
-
 
 
 body
@@ -10,8 +9,7 @@ body
 	display: flex;
 	background: #000;
 	height: 100%;
-	font-family: 'Playfair Display', Impact;
-
+	font-family: "Roboto Medium", Arial;
 }
 main
 {
@@ -80,13 +78,18 @@ img
 h1, h3
 {
 	margin-left: 30px;
-	font-family: 'Playfair Display', Impact;
+	font-family: , Impact;
 	font-weight: 400;
 }
 h1
 {
 		font-size: 250%;
 		margin-bottom: -10px;
+}
+h2
+{
+	border-bottom: solid;
+	border-color: #feca07;
 }
 ul
 {
@@ -181,8 +184,21 @@ margin-right: 176px;
 #Competences
 {
 	margin-top: 60px;
+	margin-bottom: 60px;
 }
-
+#languages_prog
+{
+	float: left;
+	margin-left: 41px;
+}
+#languages_liste
+{
+	margin-left: 250px;
+}
+.text_color
+{
+	color: #545454;
+}
 
 .clear
 {
