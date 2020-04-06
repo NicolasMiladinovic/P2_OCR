@@ -7,7 +7,11 @@
     <title>Mon CV</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.css">
+    <link rel="stylesheet" href="fontawesome/css/solid.css">
     <link rel="stylesheet" href="css/P2_style.css" />
+
 
     <style type="text/css">
         article.col-sm-10,
@@ -30,47 +34,59 @@
                 <div class="row">
 
                     <div class="col-12 ">
-                        <h2  class="titre_bande">CONTACT</h2>
+                        <h2 class="titre_bande">CONTACT</h2>
                     </div>
 
                     <div class="col-12 contenu_bande contenu_texte_bande">
-                        Adresse <br>
-                        Aulnay Sous Bois, France
+                       <strong>Adresse <br>
+                        Aulnay Sous Bois, France </strong> 
                     </div>
                     <div class="col-12 contenu_bande contenu_texte_bande">
-                        Téléphone <br>
-                        06 47 26 76 57
+                        <strong>Téléphone <br>
+                        06 47 26 76 57</strong> 
                     </div>
                     <div class="col-12 contenu_bande contenu_texte_bande">
-                        Email <br>
-                        nicolas.miladinovic@gmail.com
+                        <strong>Email <br>
+                        nicolas.miladinovic@gmail.com</strong> 
                     </div>
                     <div class="col-12 contenu_bande contenu_texte_bande">
-                        Site web <br>
-                        moncv.com
+                        <strong>Site web <br>
+                        moncv.com</strong> 
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h2  class="titre_bande">À PROPOS DE MOI</h2>
+                    <div class="col-12">
+                        <h2 class="titre_bande">À PROPOS DE MOI</h2>
                     </div>
-                        <div class="col-12">
-                            <p class="contenu_bande contenu_texte_bande">
-                                blabl ablabla blablab lbablablablab lablablab lablab lbablabl ablablablab lablab
-                                lablbablabla blablab lablablablablb ablablablablablabl ablablablba
-                                blablablablablablablabla
-                                blba blablablablablab lablabl ablba blablabl ablablablab lablablbablablablablab
-                                lablablablablbablab lablalab lablab lablabl bablablabl abl ablabla blablab lbablabla
-                                blabla
-                                blablablabl abl bablabla
-                            </p>
-                        </div>
-                   
+                    <div class="col-12">
+                        <p class="contenu_texte_bande">
+                            blabl ablabla blablab lbablablablab lablablab lablab lbablabl ablablablab lablab
+                            lablbablabla blablab lablablablablb ablablablablablabl ablablablba
+                            blablablablablablablabla
+                            blba blablablablablab lablabl ablba blablabl ablablablab lablablbablablablablab
+                            lablablablablbablab lablalab lablab lablabl bablablabl abl ablabla blablab lbablabla
+                            blabla
+                            blablablabl abl bablabla
+                        </p>
+                    </div>
+
                 </div>
-                <section id="loisirs">
-                    <h2  class="titre_bande">LOISIRS</h2>
-                    <!--    <p id="icones"><i class="fas fa-basketball-ball"></i></p>   -->
-                </section>
+                <div class="row">
+                    <div class="col-12">
+
+                        <h2 class="titre_bande">LOISIRS</h2>
+                    </div>
+                    <div class="col-4 contenu_loisir">
+                        <i class="fas fa-basketball-ball"></i>
+                    </div>
+                    <div class="col-4 contenu_loisir">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <div class="col-4 contenu_loisir">
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+
+                </div>
             </nav>
             <div class="col-lg-7" id="main">
                 <header>
@@ -79,18 +95,18 @@
                 </header>
 
                 <section id="Formation">
-                    <h2> FORMATION </h2>
+                    <h2> <span class="logo"><i class="fas fa-graduation-cap"></i></span>FORMATION </h2>
                     <ul class="text_color">
                         <li>
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <p id="date_bac" class="date">
+                                    <p class="date style_contenu_main bold">
                                         2018 <br />
                                         Aulnay sous bois
                                     </p>
                                 </div>
                                 <div class="col-lg-9">
-                                    <p id="bac" class="info">
+                                    <p id="bac" class="info style_contenu_main">
                                         Baccalauréat Scientifique au lycée l'Ésperance.
                                     </p>
                                 </div>
@@ -100,12 +116,12 @@
                         <li>
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <p id="date_formation_ocr" class="date">
+                                    <p class="date style_contenu_main bold">
                                         2020
                                     </p>
                                 </div>
                                 <div class="col-lg-9">
-                                    <p id="formation_ocr" class="info">
+                                    <p id="formation_ocr" class="info style_contenu_main">
                                         Formation développeur web sur la platform OpenClassrooms.
                                     </p>
                                 </div>
@@ -116,18 +132,18 @@
                 </section>
 
                 <section id="Experience">
-                    <h2>ÉXPERIENCE PROFESSIONELLE</h2>
+                    <h2><span class="logo"><i class="fas fa-briefcase"></i></span>EXPÉRIENCE PROFESSIONELLE</h2>
                     <ul>
                         <li class="text_color">
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <p id="date_stage_gsipme" class="date">
+                                    <p id="date_stage_gsipme" class="date style_contenu_main">
                                         07/2017 <br>
                                         Différents lieux
                                     </p>
                                 </div>
                                 <div class="col-lg-9">
-                                    <p id="stage_gsipme" class="info">
+                                    <p id="stage_gsipme" class="info style_contenu_main">
                                         Stagiaire dans l'entreprise GSIPME : <br>
                                         Gestion de compte utilisateurs Google for Work <br>
                                         Assistance à la gestion du parc informatique de Pylones : <br>
@@ -146,13 +162,13 @@
                             <li class="text_color">
                                 <div class="row">
                                     <div class="col-lg-3">
-                                        <p id="date_JapanExpo" class="date">
-                                            2016-2018-2019 <br>
+                                        <p class="date style_contenu_main">
+                                            2016 - 2018 - 2019 <br>
                                             Parc des Expositions
                                         </p>
                                     </div>
                                     <div class="col-lg-9">
-                                        <p id="JapanExpo" class="info">
+                                        <p  class="info style_contenu_main">
                                             Montage et installation du stand <br>
                                             Vente à la clientèle <br>
                                             Encaissement <br>
@@ -167,14 +183,14 @@
                                 <li class="text_color">
                                     <div class="row">
                                         <div class="col-lg-3">
-                                            <p id="date_vendeur" class="date">
+                                            <p class="date style_contenu_main">
                                                 2015 - 2016 <br>
-                                                Période de vacances scolaire <br>
+
                                                 République Paris 11ème
                                             </p>
                                         </div>
                                         <div class="col-lg-9">
-                                            <p id="vendeur" class="info">
+                                            <p id="vendeur" class="info style_contenu_main">
                                                 Aider/conseiller les clients <br>
                                                 Encaissement des paiements <br>
                                                 Participation et relation avec les fournisseurs <br>
@@ -188,10 +204,10 @@
                 </section>
 
                 <section id="Competences">
-                    <h2>COMPÉTENCES</h2>
+                    <h2><span class="logo"><i class="fas fa-pencil-alt"></i></span>COMPÉTENCES</h2>
                     <div class="row">
                         <div class="col-lg-12">
-                            <p class="text_color">
+                            <p class="text_color style_contenu_main">
 
                                 Maitrise logiciels bureautique
 
@@ -200,8 +216,8 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12">
-                            <p id="languages_prog" class="text_color">Language de programmation :
-                                <ul class="text_color" id=languages_liste>
+                            <p class="text_color style_contenu_main">Language de programmation :
+                                <ul class="text_color style_contenu_main">
                                     <li>HMTL5</li>
                                     <li>CSS3</li>
                                     <li>JavaScript</li>
