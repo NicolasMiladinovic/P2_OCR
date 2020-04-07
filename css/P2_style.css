@@ -1,13 +1,4 @@
-/* body {
-    padding-top: 10px;
-  }
-  [class*="col-"], footer {
-    background-color: lightgreen;
-    border: 2px solid black;
-    border-radius: 6px;
-    line-height: 40px;
-    text-align: center;
-  } */
+
 
 
   @font-face {
@@ -48,7 +39,7 @@
   img
   {
     border-radius: 50%;
-    margin-top: 	20px;
+    margin-top: 	50px;
     box-shadow: 1px 1px 12px #555;
     width: 60%;
     max-width: 150px;
@@ -87,14 +78,13 @@
   h1, h3
   {
     margin-left: 30px;
-    font-family: Arial, "Roboto Condensed Light";
+    font-family:  "Roboto Condensed Light";
   }
   h1
   {
       font-size: 250%;
       margin-bottom: -10px;
-      font-family: Helvetica;
-  }
+  } 
   h2
   {
     border-bottom: solid;
@@ -108,7 +98,7 @@
   {
     font-size: 1.3rem;
     margin-top: 25px;
-    font-weight: normal;
+    font-weight: bolder;
   }
   ul
   {
@@ -122,6 +112,7 @@
   #style_h1
   {
     color: #feca07;
+    font-weight: bolder;
   }
  
   #style_h3
@@ -148,6 +139,10 @@
   .contenu_loisir
   {
     color: #4f4e48;
+  }
+  .contenu_loisir_logo
+  {
+    text-align: center;
   }
   .bold
   {
@@ -179,8 +174,9 @@
     color: #545454;
   }
   
-  .clear
-  {
-    clear: left;
-  }
-
+ .logo_list
+ {
+   font-size: 0.4rem;
+   margin-right: -60px;
+   color: #feca07;
+ }
