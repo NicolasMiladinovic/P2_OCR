@@ -75,6 +75,10 @@
     color: #4f4e48;
   }
   
+  .style_bande
+  {
+    margin-bottom: 195%;
+  }
   h1, h3
   {
     margin-left: 30px;
@@ -88,6 +92,7 @@
   h2
   {
     border-bottom: solid;
+    border-width: 2px;
     border-color: #feca07;
     font-family: Arial, "Roboto Condensed";
     font-size: 1.35rem;
@@ -125,6 +130,12 @@
     margin-top: 30px;
     font-size: 0.8rem;
   }
+  .style_contenu_main2
+  {
+    margin-top: 25px;
+    font-size: 0.8rem;
+    margin-left: -20px;
+  }
   #Formation
   {
     margin-top: 80px;
@@ -151,7 +162,7 @@
   .logo
   {
     color: #feca07;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   i
   {
@@ -177,6 +188,16 @@
  .logo_list
  {
    font-size: 0.4rem;
-   margin-right: -60px;
    color: #feca07;
+ }
+
+ @media (max-width: 990px) {
+    .style_bande
+    {
+      margin-bottom: 0%;
+    }
+    .contenu_loisir
+  {
+    margin-bottom: 50px;
+  }
  }
