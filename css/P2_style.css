@@ -19,7 +19,7 @@
   body
   {
     display: flex;
-    background: #000;
+    background: rgb(231, 231, 231);
     height: 100%;
     font-family: Arial, "Roboto Condensed Light";
   }
@@ -154,6 +154,7 @@
   .contenu_loisir_logo
   {
     text-align: center;
+    margin-bottom: 10px;
   }
   .bold
   {
@@ -198,6 +199,6 @@
     }
     .contenu_loisir
   {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
  }
