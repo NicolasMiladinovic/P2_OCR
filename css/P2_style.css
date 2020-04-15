@@ -202,3 +202,11 @@
     margin-bottom: 30px;
   }
  }
+
+
+
+ @media (max-width:1199px) and (min-width:993px) {
+  .responsive{
+    font-size: 0.66rem;
+  }
+}
