@@ -1,0 +1,228 @@
+
+
+
+  @font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/Roboto-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Roboto Condensed";
+    src: url("../fonts/RobotoCondensed-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto Condensed Light";
+    src: url("../fonts/RobotoCondensed-Light.ttf");
+  }
+  
+  body
+  {
+    display: flex;
+    background: rgb(231, 231, 231);
+    height: 100%;
+    font-family: Arial, "Roboto Condensed Light";
+  }
+  #main
+  {
+    
+    background: white;
+    margin-right: auto;
+    padding-top: 60px;
+  
+  }
+  #bande
+  {
+    background: #feca07;
+    margin-left: auto;
+  }
+  img
+  {
+    border-radius: 50%;
+    margin-top: 	50px;
+    box-shadow: 1px 1px 12px #555;
+    width: 60%;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #img
+  {
+    text-align: center;
+  }
+  .titre_bande
+  {
+    
+      background-color: #404040;
+      color: #feca07;
+      text-align: center;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-top: 30px;
+      font-weight: normal;
+  }
+ 
+  .contenu_texte_bande
+  {
+    margin-top: 20px;
+    font-family: Arial, "Roboto Medium";
+    font-size: 0.8rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    color: #4f4e48;
+  }
+  
+  .style_bande
+  {
+    margin-bottom: 195%;
+  }
+  h1, h3
+  {
+    margin-left: 30px;
+    font-family:  "Roboto Condensed Light";
+  }
+  h1
+  {
+      font-size: 250%;
+      margin-bottom: -10px;
+  } 
+  h2
+  {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #feca07;
+    font-family: Arial, "Roboto Condensed";
+    font-size: 1.35rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+  }
+  h3
+  {
+    font-size: 1.3rem;
+    margin-top: 25px;
+    font-weight: bolder;
+  }
+  ul
+  {
+    list-style: none;
+  }
+  #Formation, #Experience, #Competences
+  {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #style_h1
+  {
+    color: #feca07;
+    font-weight: bolder;
+  }
+ 
+  #style_h3
+  {
+    border-bottom: solid;
+    border-color: #feca07;
+  }
+  .style_contenu_main
+  {
+    margin-top: 30px;
+    font-size: 0.8rem;
+  }
+  .style_contenu_main2
+  {
+    margin-top: 25px;
+    font-size: 0.8rem;
+    margin-left: -20px;
+  }
+  #Formation
+  {
+    margin-top: 80px;
+  }
+
+
+  .date
+  {
+    float: left;
+    font-family: "Roboto Medium";
+  }
+  .contenu_loisir
+  {
+    color: #4f4e48;
+  }
+  .contenu_loisir_logo
+  {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .bold
+  {
+    font-family: "Roboto Medium";
+  }
+  .logo
+  {
+    color: #feca07;
+    font-size: 0.6rem;
+  }
+  i
+  {
+    width: 70px;
+    font-size: 300%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+  .info
+  {
+    float:right;
+    margin-right: 5%;
+    padding-left: 5%;
+    width: 100%;
+  }
+  
+  .text_color
+  {
+    color: #545454;
+  }
+  
+ .logo_list
+ {
+   font-size: 0.4rem;
+   color: #feca07;
+ }
+
+ @media (max-width: 992px) {
+    .texte_mobile {
+    font-size: 230%;
+    }
+    .texte_mobile2 {
+      font-size: 300%;
+    }
+    .texte_mobile3 {
+      font-size: 400%;
+    }
+    .texte_mobile4 {
+      font-size: 2rem;
+    }
+    .texte_mobile_point {
+      font-size: 1rem;
+    }
+    
+    .style_bande
+    {
+      margin-bottom: 0%;
+    }
+    .contenu_loisir
+  {
+    margin-bottom: 30px;
+  }
+ }
+
+
+
+ @media (max-width:1199px) and (min-width:992px) {
+  .responsive{
+    font-size: 0.66rem;
+  }
+}
