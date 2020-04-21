@@ -193,6 +193,22 @@
  }
 
  @media (max-width: 992px) {
+    .texte_mobile {
+    font-size: 230%;
+    }
+    .texte_mobile2 {
+      font-size: 300%;
+    }
+    .texte_mobile3 {
+      font-size: 400%;
+    }
+    .texte_mobile4 {
+      font-size: 2rem;
+    }
+    .texte_mobile_point {
+      font-size: 1rem;
+    }
+    
     .style_bande
     {
       margin-bottom: 0%;

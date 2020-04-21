@@ -1,0 +1,3 @@
+site : https://nicolasmiladinovic.github.io/P2_OCR/
+
+repository : https://github.com/NicolasMiladinovic/P2_OCR
